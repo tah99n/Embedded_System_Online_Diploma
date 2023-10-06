@@ -1,14 +1,13 @@
 /*
- * EX8.c
- *
- *  Created on: 23 Apr 2023
- *      Author: Mahmoud Tahoun
+ ============================================================================
+ Name        : EX8.c
+ Author      : Mahmoud Tahoun
+ ============================================================================
  */
-
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main(void){
 	char operator;
 	float a,b,c;
 	printf("Enter operator either + or - or * or / : ");
@@ -17,7 +16,6 @@ int main(void) {
 	printf("Enter two operands: ");
 	fflush(stdout);
 	scanf("%f%f",&a,&b);
-
 	switch(operator){
 		case('+'):
 			c=a+b;
@@ -39,5 +37,5 @@ int main(void) {
 			printf("Error! operator is not correct");
 			break;
 	}
-	return EXIT_SUCCESS;
+	return 0;
 }

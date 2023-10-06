@@ -24,5 +24,5 @@ int main(void){
 		}
 	}
 	printf("Frequency of %c = %d",c,freq);
-	return EXIT_SUCCESS;
+	return 0;
 }

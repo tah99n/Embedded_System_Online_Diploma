@@ -22,5 +22,5 @@ int main(void){
 	}
 	reverse[len]=0;
 	printf("Reverse sting is : %s",reverse);
-	return EXIT_SUCCESS;
+	return 0;
 }

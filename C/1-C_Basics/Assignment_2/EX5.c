@@ -1,14 +1,13 @@
 /*
- * EX5.c
- *
- *  Created on: 23 Apr 2023
- *      Author: Mahmoud Tahoun
+ ============================================================================
+ Name        : EX5.c
+ Author      : Mahmoud Tahoun
+ ============================================================================
  */
-
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main(void){
 	char x;
 	printf("Enter a character: ");
 	fflush(stdout);
@@ -18,6 +17,6 @@ int main(void) {
 	}else{
 		printf("%c is not an alphabet.",x);
 	}
-	return EXIT_SUCCESS;
+	return 0;
 }
 

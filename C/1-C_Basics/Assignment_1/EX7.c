@@ -1,10 +1,9 @@
 /*
- * EX7.c
- *
- *  Created on: 20 Apr 2023
-  *      Author: Mahmoud Tahoun
+ ============================================================================
+ Name        : EX7.c
+ Author      : Mahmoud Tahoun
+ ============================================================================
  */
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -20,5 +19,5 @@ int main(void){
 	b=a-b;
 	a=a-b;
 	printf("\nAfter swapping, value of a= %.2f\nAfter swapping, value of b= %.2f",a,b);
-	return EXIT_SUCCESS;
+	return 0;
 }

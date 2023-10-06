@@ -17,5 +17,5 @@ int main(void){
 	gets(str);
 	for (i=0;str[i]!='\0';++i);
 	printf("Length of String %d", i);
-	return EXIT_SUCCESS;
+	return 0;
 }

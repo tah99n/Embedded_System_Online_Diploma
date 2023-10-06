@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main(void){
 	int n,i,element,location;
 	printf("Enter number of elements: ");
 	fflush(stdout);
@@ -31,5 +31,5 @@ int main(void) {
 	for(i=0;i<n;i++){
 			printf("%d ",arr[i]);
 		}
-	return EXIT_SUCCESS;
+	return 0;
 }

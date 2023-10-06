@@ -1,8 +1,8 @@
 /*
- * EX6.c
- *
- *  Created on: 20 Apr 2023
-  *      Author: Mahmoud Tahoun
+ ============================================================================
+ Name        : EX6.c
+ Author      : Mahmoud Tahoun
+ ============================================================================
  */
 
 #include <stdio.h>
@@ -20,5 +20,5 @@ int main(void){
 	a=b;
 	b=a;
 	printf("\nAfter swapping, value of a= %.2f\nAfter swapping, value of b= %.2f",a,b);
-	return EXIT_SUCCESS;
+	return 0;
 }

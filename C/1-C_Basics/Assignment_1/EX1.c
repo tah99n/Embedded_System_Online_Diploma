@@ -1,8 +1,8 @@
 /*
- * EX1.c
- *
- *  Created on: 20 Apr 2023
- *      Author: Mahmoud Tahoun
+ ============================================================================
+ Name        : EX1.c
+ Author      : Mahmoud Tahoun
+ ============================================================================
  */
 
 #include <stdio.h>
@@ -10,5 +10,5 @@
 
 int main(void){
 	printf("C programming");
-	return EXIT_SUCCESS;
+	return 0;
 }

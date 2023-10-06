@@ -1,8 +1,8 @@
 /*
- * EX3.c
- *
- *  Created on: 20 Apr 2023
- *      Author: Mahmoud Tahoun
+ ============================================================================
+ Name        : EX3.c
+ Author      : Mahmoud Tahoun
+ ============================================================================
  */
 
 #include <stdio.h>
@@ -14,7 +14,7 @@ int main(void){
 	fflush(stdout);
 	scanf("%d%d",&a,&b);
 	printf("\nSum: %d",(a+b));
-	return EXIT_SUCCESS;
+	return 0;
 }
 
 

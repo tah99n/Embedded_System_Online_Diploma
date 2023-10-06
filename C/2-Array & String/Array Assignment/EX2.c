@@ -24,6 +24,6 @@ int main(void){
 	}
 	average=sum/n;
 	printf("Average = %.2f",average);
-			return EXIT_SUCCESS;
+			return 0;
 }
 

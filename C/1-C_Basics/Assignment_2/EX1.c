@@ -1,14 +1,13 @@
 /*
- * EX1.c
- *
- *  Created on: 23 Apr 2023
- *      Author: Mahmoud Tahoun
+ ============================================================================
+ Name        : EX1.c
+ Author      : Mahmoud Tahoun
+ ============================================================================
  */
-
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main(void){
 	int x;
 	printf("Enter an integer you want to check: ");
 	fflush(stdout);
@@ -19,5 +18,5 @@ int main(void) {
 		printf("\n%d is Odd",x);
 	}
 
-	return EXIT_SUCCESS;
+	return 0;
 }

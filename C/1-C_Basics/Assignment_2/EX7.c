@@ -1,14 +1,14 @@
 /*
- * EX7.c
- *
- *  Created on: 23 Apr 2023
- *      Author: Mahmoud Tahoun
+ ============================================================================
+ Name        : EX7.c
+ Author      : Mahmoud Tahoun
+ ============================================================================
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main(void){
 	int x,i;
 	unsigned long long fact=1;
 	printf("Enter an integer: ");
@@ -23,5 +23,5 @@ int main(void) {
 		printf("%d Factorial = %llu",x,fact);
 	}
 
-	return EXIT_SUCCESS;
+	return 0;
 }
